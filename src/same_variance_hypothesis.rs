@@ -1,7 +1,7 @@
 //! Algorithm for solving problems of the following kind.
 //!
-//! Given: `significance` ratio, sample of a random variable X, sample of a random variable Y.
-//! To figure out: Is it appropriate to assume Var(X) = Var(Y)?
+//! **Given**: *significance ratio*, *sample of a random variable **X***, *sample of a random variable **Y***.
+//! **To figure out**: Is it appropriate to **assume** `Var(X) = Var(Y)`?
 
 use statrs::distribution::{ContinuousCDF, FisherSnedecor};
 
